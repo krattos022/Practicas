@@ -1,0 +1,81 @@
+
+
+<<>>=
+A <- c(100,96,92,96,92); A
+B <- c(76,80,75,84,82); B
+C <- c(108,100,96,98,100); C
+Baterias <- data.frame(procesoA=A, procesoB=B, procesoC=C); Baterias
+# Para editar los datos puede utilizar la funci?n fix()
+fix(Baterias)
+write.table(Baterias, file="Baterias.txt", append=FALSE, quote=TRUE, sep=" ", na="NA",
+col.names=TRUE)
+ls(); rm(list=ls(all=TRUE)); ls()
+Baterias <- read.table("Baterias.txt", header=TRUE); Baterias
+attach(Baterias, pos=2)
+search()
+stripchart(Baterias, main="Gr?fico de puntos para los tres procesos", method = "stack", vertical =
+FALSE, col="blue", pch=1, xlab="Duraci?n (semanas)", ylab="Proceso")
+#Muestra un resumen estad?stico para los tres procesos.
+summary(Baterias)
+
+# Horizontal
+boxplot(Baterias, width=NULL, varwidth=TRUE, names, add= FALSE, horizontal = TRUE,
+main="Gr?fico de caja por proceso", border=par("fg"), col=c("yellow", "cyan", "red"), xlab =
+"Duraci?n (semanas)", ylab="Proceso")
+
+# Vertical
+boxplot(Baterias, width=NULL, varwidth=TRUE, names, add= FALSE, horizontal = FALSE,
+main="Gr?fico de caja por proceso", border=par("fg"), col=c("yellow", "cyan", "red"), xlab =
+"Duraci?n (semanas)", ylab="Proceso")
+
+#Presenta la matriz de covarianzas muestral.
+options(digits=3) # s?lo imprime 3 lugares decimales
+S <- var(Baterias); S
+
+Baterias <- stack(Baterias); Baterias
+names(Baterias) # Muestra los encabezados de los vectores
+
+
+#Desconecta la hoja de datos de la segunda ruta o lista de b?squeda.
+detach(Baterias, pos=2); search()
+
+#An?lisis de una variable bidimensional
+
+Fuma = c("Si","No","No","Si","No","Si","Si","Si","No","Si"); Fuma
+Cantidad = c(1,2,2,3,3,1,2,1,3,2); Cantidad
+Estudia <- data.frame(Fuma=Fuma, Cantidad=Cantidad); Estudia
+fix(Estudia)
+write.table(Estudia, file="Estudia.txt", append=FALSE, quote=TRUE, sep=" ", na="NA",
+col.names=TRUE)
+write.table
+ls()
+rm(list=ls(all=TRUE))
+ls()
+Estudia <- read.table("Estudia.txt", header=TRUE)
+Estudia
+tablaCont <- table(Estudia)
+tablaCont
+options(digits=3) # s?lo imprime 3 lugares decimales
+propTotal <- prop.table(tablaCont); propTotal
+propFila <- prop.table(tablaCont, 1)
+propFila
+propCol <- prop.table(tablaCont, 2)
+propCol
+barplot(table(Estudia$Cantidad, Estudia$Fuma), beside = FALSE, horizontal=FALSE, main="Gr?fico de barras (Fuma, Cantidad de horas de estudio)", legend.text =T, xlab="Fuma", ylab="Cantidad de horas-estudio")
+
+barplot(table(Estudia$Fuma, Estudia$Cantidad), beside = FALSE, horizontal=FALSE,main="Gr?fico
+de barras (Cantidad de horas de estudio,Fuma)", legend.text =T, xlab="Cantidad de horas-estudio",
+ylab="Fuma")
+Fuma=factor(Estudia$Fuma); Fuma
+barplot(table(Estudia$Cantidad, Estudia$Fuma), main="Gr?fico de barras (Fuma, Cantidad de horas
+de estudio)", xlab="Fuma", ylab="Cantidad de horas-estudio", beside=TRUE, legend.text=T)
+barplot(table(Estudia$Cantidad, Estudia$Fuma), main="Gr?fico de barras (Fuma, Cantidad de horas
+de estudio)", xlab="Fuma", ylab="Cantidad de horas-estudio", beside=TRUE, legend.text=c("menor
+que 5", "5-10", "mayor que 10"))
+
+
+
+@
+
+
+

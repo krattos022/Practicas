@@ -1,0 +1,38 @@
+
+
+
+este es un ejemplo
+<<>>=
+
+simulIntProp <- function(m=5, n=1, p, nivel.conf=0.95)
+{
+X <- rbinom(m, n, p)
+# Matriz con 1000 valores aleatorios binomial(n,p), 50 muestras cada una de tama?o 20
+pe <<- X/n
+# Calcula la proporci?n estimada en cada una de las muestras.
+SE <<- sqrt(pe*(1-pe)/n)
+# Calcula la desviaci?n est?ndar estimada en cada una de las muestras.
+alfa <- 1-nivel.conf
+z <<- qnorm(1-alfa/2)
+Intervalo <<- cbind(pe - z*SE, pe + z*SE)
+# genera los extremos del intervalo de confianza
+nInter <<- 0
+# un contador para conocer en cu?ntos intervalos se encuentra la verdadera proporci?n.
+for(i in 1:m)
+if ((p >= Intervalo[i, 1]) && (p <= Intervalo[i, 2]))
+nInter <<- nInter + 1
+# funci?n que cuenta cu?ntos intervalos contienen el verdadero valor del par?metro.
+return(nInter)
+}
+n=20; m= 50; p=0.5; nivel.conf=0.95
+simulIntProp(m, n, p, nivel.conf)
+Intervalo # para visualizar cada uno de los intervalos generados
+nInter
+# para visualizar en cu?ntos de estos intervalos se encuentra la verdadera proporci?n.
+#Gr?fico que muestra los intervalos de confianza de 95% que contienen y no contienen el verdadero valor del par?metro p.
+matplot(rbind(pe - z*SE, pe + z*SE), rbind(1:m, 1:m), type="l", lty=1)
+abline(v=p)
+@
+
+
+

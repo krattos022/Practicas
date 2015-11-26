@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\textbf{Practica 2.}
+\SweaveInput{practica2.Rnw}
+\textbf{Practica 3.}
+\SweaveInput{practica3.Rnw}
+\textbf{Practica 4.}
+\SweaveInput{practica4.Rnw}
+\textbf{Practica 5.}
+\SweaveInput{practica5.Rnw}
+\textbf{Practica 6.}
+\SweaveInput{practica6.Rnw}
+\textbf{Practica 7.}
+\SweaveInput{practica7.Rnw}
+\textbf{Practica 8.}
+\SweaveInput{práctica8.Rnw}
+\textbf{Practica 9.}
+\SweaveInput{practica9.Rnw}
+\textbf{Practica 10.}
+\SweaveInput{practica10.Rnw}
+\textbf{Practica 11.}
+\SweaveInput{practica11.Rnw}
+\textbf{Practica 13.}
+\SweaveInput{practica13.Rnw}
+\textbf{Practica 14.}
+\SweaveInput{practica14.Rnw}
+\textbf{Practica 15 y 16.}
+\SweaveInput{practica1516.Rnw}
+\textbf{Practica 17.}
+\SweaveInput{practica17.Rnw}
+\textbf{Practica 18.}
+\SweaveInput{practica18.Rnw}
+\textbf{Practica 21.}
+\SweaveInput{practica21.Rnw}
+\textbf{Practica 22.}
+\SweaveInput{practica22.Rnw}
+\textbf{Practica 23.}
+\SweaveInput{practica23.Rnw}
+\textbf{Practica 24.}
+\SweaveInput{practica24.Rnw}
+\textbf{Practica 25 y 26.}
+\SweaveInput{practica2526.Rnw}
+
+
+\end{document}

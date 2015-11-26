@@ -1,0 +1,27 @@
+
+<<>>=
+bloques<-gl(n=4,k=1,length = 20)
+bloques # Vector de bloque del experimento
+tratamientos<-gl(n=5,k=4)
+tratamientos # Vector de tratamientos de los novillos
+peso<-c(0.9,1.4,1.4,2.3,3.6,3.2,4.5,4.1,0.5,0.9,0.5,0.9,3.6,3.6,3.2,3.6,1.8,1.8,0.9,1.4)
+peso # Se han registrado los pesos de Novillos
+datos2<-data.frame(bloques=bloques,tratamientos=tratamientos,peso=peso)
+datos2 # Se ha registrado en una hoja de datos los resultados del experimento
+mod2<-aov(peso ~ tratamientos + bloques,data = datos2)  # Se aplica el análisis de varianza
+summary(mod2) # Muestra la tabla ANOVA del tratamiento
+
+
+FactorA<-gl(n=4,k=8,length = 32)
+FactorA # Definiendo el vector que contiene el Factor A
+FactorB<-gl(n=4,k=2,length = 32)
+FactorB # Definiendo el vector que contiene los tratamientos de los novillos
+Porcentaje<-c(1.8,2.1,2.0,2.1,4.6,5.0,7.5,7.9,2.2,2.4,4.2,4.0,5.4,5.6,9.8,9.2,2.8,3.2,4.4,4.8,8.7,8.4,13.2,13.0,3.2,3.6,3.3,3.5,5.7,5.8,10.9,11.1)
+Porcentaje # Definiendo los pesos de los novillos
+datos3<-data.frame(FactorA=FactorA,FactorB=FactorB,Porcentaje=Porcentaje)
+datos3 # Registrando en una hoja los datos del resultado del experimento
+mod3<-aov(Porcentaje~FactorA*FactorB,data = datos3)
+summary(mod3) # Se muestra la tabla ANOVA del experimento
+
+@
+

@@ -1,0 +1,57 @@
+
+<<>>=
+dbinom(4,8,0.5)
+x <- 2; n=8; p=1/2
+
+pbinom(x, size = n, prob = p, lower.tail=TRUE)
+
+x <- 4; n=8; p=1/2
+
+#primera forma
+F <- 1 - pbinom(x, n, p, lower.tail=TRUE); F
+
+#segunda forma
+pbinom(4, size=8, prob=0.5, lower.tail=FALSE)
+
+x <- 3; mu <- 6
+
+
+ppois(x, lambda = mu, lower.tail=TRUE)
+
+#primera forma
+
+sum(dpois(c(6,7,8),lambda = 6))
+
+# segunda forma
+F8 <- ppois(8, lambda = 6, lower.tail=TRUE)
+F5 <- ppois(5,lambda = 6, lower.tail=TRUE)
+F8 - F5
+
+n <- 30
+
+#genera 30 valores de una distribución de Poisson con λ = 6
+x <- rpois(n, lambda=mu)
+
+#calcula las probabilidades para cada valor generado
+
+
+y <- dpois(x, lambda=mu)
+
+#genera el gráfico de distribución
+plot(x, y, xlab="x", ylab="Función de probalidad", main="Distribución de Poisson: lambda = 6",
+type="h")
+
+#une los puntos a las líneas
+points(x, y, pch=21)
+
+x <- 0:2 
+m = 11
+n <- 4; k=2
+# x define el número de globos con premio
+
+
+
+
+@
+
+

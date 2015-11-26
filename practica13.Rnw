@@ -1,0 +1,59 @@
+
+
+<<>>=
+moneda <- c("C", "+"); moneda
+n <- 10; n
+espacio <- 1:54;espacio
+# se define el tamaño de la muestra
+n <- 6; n
+muestra <- sample(espacio, n); muestra
+
+# genera el espacio muestral del lanzamiendo de los dos dados
+espacio = as.vector(outer(1:6, 1:6, paste)); espacio
+
+# se define el tamaño de la muestra
+n <- 4; n
+
+# finalmente se selecciona la muestra
+muestra <- sample(espacio, n, replace=TRUE); muestra
+
+#genera el espacio muestral de las 52 cartas
+naipe = paste(rep(c("A", 2:10, "J", "Q", "K"), 4), c("OROS","COPAS", "BASTOS",
+"ESPADAS"));naipe
+
+# se define el tamaño de la muestra
+n <- 5; n
+
+# se obtiene la muestra sin reemplazo (aunque no se especifique con replace=FALSE)
+cartas <- sample(naipe, n) ; cartas
+
+espacio <- function(num)
+{
+numDiv7 <- numeric(0)
+ind <- 0
+for(i in 1:length(num))
+if ((num[i] %% 7)==0)
+{
+ind <- ind+1
+numDiv7[ind]=num[i]
+}
+return(numDiv7)
+}
+numeros <- 1:500
+
+# generando el espacio muestral
+s <- espacio(numeros); s
+
+# seleccionando la muestra
+muestra <- sample(s, 12, replace=TRUE); muestra
+
+
+
+
+
+
+
+@
+
+
+

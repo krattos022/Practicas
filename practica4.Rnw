@@ -1,0 +1,21 @@
+
+
+
+Entrada1 <- read.table("datos01.txt", header=TRUE)
+Entrada1
+Edat1 <- scan("datos01.txt", list(X1=0, X2=0), skip = 1, flush = TRUE, quiet = TRUE)
+Edat1
+pp <- scan("datos02.txt", skip = 1, quiet= TRUE)
+pp
+
+library(foreign)
+baseproductos <-read.table("productos.csv",header=TRUE,sep = ",")
+baseproductos
+
+library(Hmisc)
+Baseimportante<-spss.get("Mundo.sav",use.value.labels =TRUE)
+Baseimportante
+
+
+
+

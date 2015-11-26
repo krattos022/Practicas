@@ -1,0 +1,71 @@
+
+
+<<>>=
+sexo <- c("M", "F", "F", "M", "F", "F", "M")
+sexo
+edad <- c(19, 20, 19, 22, 20, 21, 19)
+edad
+FactorSexo = factor(sexo)
+FactorSexo
+mediaEdad <- tapply(edad, FactorSexo, mean) 
+mediaEdad
+is.vector(mediaEdad)
+is.matrix(mediaEdad)
+is.list(mediaEdad)
+is.table(mediaEdad)
+is.array(mediaEdad)
+factor()
+lista1<-list(padre="Pedro", madre="Mar?a", no.hijos=3, edad.hijos=c(4,7,9))
+lista1
+is.matrix(lista1)
+is.vector(lista1$edad.hijos)
+lista1["madre"]
+lista1[[4]][2]
+lista1["padre"]
+lista1$padre
+lista1$edad.hijos[2]
+lista1[[4]][2]
+lista1[["pedro"]]
+x <- "nombre"; lista1[x]
+subLista <- lista1[4]; subLista
+lista1[5] <- list(sexo.hijos=c("F", "M", "F")); lista1
+lista1 <- edit(lista1)
+S <- matrix(c(3, -sqrt(2), -sqrt(2), 2), nrow=2, ncol=2);S
+autovS <- eigen(S); autovS
+evals <- eigen(S)$values; evals
+Notas <- matrix(c(2, 5, 7, 6, 8, 2, 4, 9, 10), ncol=3,
+                dimnames=list(c("Matem?tica","?lgebra","Geometr?a"),
+                              c("Juan","Jos?","Ren?"))); Notas
+ncol=(3)
+log <- sample(c(TRUE, FALSE), size = 20, replace = TRUE)
+log
+
+comp <- rnorm(20) + runif(20) * (1i)
+comp
+num <- rnorm(20, mean=0, sd=1)
+num
+df1 <- data.frame(log, comp, num)
+df1
+nombres <- c("logico", "complejo", "numerico")
+names(df1) <- nombres; df1
+row.names(df1) <- letters[1:20]
+df1
+edad <- c(18, 21, 45, 54); edad
+datos <- matrix(c(150, 160, 180, 205, 65, 68, 65, 69), ncol=2, dimnames=list(c(),
+                                                                             c("Estatura","Peso"))); datos
+sexo <- c("F", "M", "M", "M"); sexo
+hoja1 <- data.frame(Edad=edad, datos, Sexo=sexo)
+hoja1
+search()
+attach(hoja1)
+search()
+Edad
+hoja1$Peso <- Peso+1
+hoja1
+detach(hoja1)
+edad
+
+
+
+@
+

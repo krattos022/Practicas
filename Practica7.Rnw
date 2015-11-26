@@ -1,0 +1,73 @@
+
+
+<<>>=
+Hijos<-c(2,1,2,1,4,2,3,0,2,3,3,2,1,0,2,4,1,2,1,3,4,1,2,3,1,5,2,3,1,2)
+data.entry(Hijos)
+Hijos
+length(Hijos)
+
+write(Hijos, "Hijos.txt")
+ls()
+rm(list=ls(all=TRUE)); ls()
+
+X <- scan("Hijos.txt", what = integer(0), na.strings = "NA", flush=FALSE)
+ls()
+
+stripchart(X, method="stack", vertical=FALSE, col="blue", pch=1, main="Gráfico de\n
+puntos", xlab="Número de hijos")
+
+fab <- table(X); fab
+fre <- fab/length(X); fre
+Fac <- cumsum(fab); Fac
+Far <- Fac/length(X); Far
+
+options(digits=2)
+tabla <- data.frame(fab=fab, fre=fre, Fac=Fac, Far=Far)
+names(tabla) <- c("X", "fab", "free.X", "fre", "Fac", "Far")
+tabla
+tfre <- data.frame(X=tabla$X, fab=tabla$fab, fre=tabla$fre, Fac=tabla$Fac, Far=tabla$Far)
+tfre
+
+media <- mean(X, na.rm = FALSE); media
+
+for(i in 1:length(X)) if (fab[i] == max(fab)) break()
+moda <- names(fab[i]); moda # R no tiene incorporada una función para la moda
+
+mediana <- median(X); mediana
+
+range(X)
+
+cuasivar <- var(X); cuasivar
+s <- sd(X); s
+
+quantile(X,c(0.25, 0.5, 0.75))
+
+quantile(X, 0.6)
+
+resumen <- summary(X); resumen
+
+fivenum(X)
+
+
+barplot(tfre[[2]], main="Gráfico de barras", xlab="X = Número Hijos\n", ylab="frecuencia",
+col=c("yellow", "blue", "white", "orange", "cyan", "red"), sub="Agosto-2012")
+
+
+pie(tfre[[2]], main="Gráfico de pastel", xlab="Número Hijos \n", col=c("yellow", "blue",
+"white", "orange", "cyan", "red"), sub="Agosto-2012")
+
+
+names(fab) = c("Cero", "Uno", "Dos", "Tres", "Cuatro", "Cinco")
+pie(fab, main="Gráfico de pastel", xlab="X = Número Hijos\n", col=c("yellow", "blue",
+"white", "orange", "cyan", "red"), sub="Agosto-2012")
+
+boxplot(X, main="Gráfico de caja", ylab="Número de hijos\n")
+
+boxplot(X, main="Gráfico de caja", xlab=" Número de hijos\n", plot=TRUE, border="red",col="yellow", horizontal=TRUE)
+
+
+
+@
+
+
+

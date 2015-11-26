@@ -1,0 +1,57 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<>>=
+# GUIA 23
+#PRUEBAS SOBRE DOS MUESTRAS INDEPENDIENTES
+IMC_Control <- c(23.6, 22.7, 21.2, 21.7, 20.7, 22.0, 21.8, 24.2, 20.1,
+                 21.3, 20.5, 21.1, 21.4, 22.2, 22.6,
+                 20.4, 23.3, 24.8)
+IMC_Pacientes <- c(25.6, 22.7, 25.9, 24.3, 25.2, 29.6, 21.3, 25.5, 27.4, 22.3,
+                   24.4, 23.7, 20.6, 22.8)
+t.test(IMC_Control, IMC_Pacientes, var.equal=TRUE, mu=0)
+#Se concluye entonces que existe diferencia significativa en el IMC para ambos grupos
+#de pacientes,#pues el p valor de la prueba resulta ser muy pequeño.
+
+#PRUEBAS SOBRE DOS MUESTRAS PAREADAS
+PAS.antes <- c(160,155,180,140,150,130,190,192,170,165)
+PAS.despues <- c(139,135,175,120,145,140,170,180,149,146)
+shapiro.test(PAS.antes)
+shapiro.test(PAS.despues)
+ks.test(PAS.antes,"pnorm",mean=mean(PAS.antes),sd=sd(PAS.antes))
+ks.test(PAS.despues,"pnorm",mean=mean(PAS.despues),sd=sd(PAS.despues))
+t.test(PAS.antes, PAS.despues, paired=TRUE, mu=0)
+#El valor del estadístico t es 4.0552, con gl = 9, P = 0.0029. Con estos resultados
+#se rechaza 0 H y por lo tanto se concluye que la PAS antes y después del 
+#tratamiento es distinta, es decir, el tratamiento ha sido efectivo.
+
+#PRUEBA DE HIPÓTESIS ACERCA DE LA VARIANZA DE DOS POBLACIONES
+Agente_A <- c(12, 11, 18, 16, 13)
+Agente_B <- c(14, 18, 18, 17, 16)
+var.test(Agente_A, Agente_B)
+#Como el p valor es alto se concluye que las varianzas pueden considerarse iguales.
+
+
+#EJERCICIO
+#contraste de la igualdad de varianzas
+Tabla_A <- c(2098,2082,2246,2340,2714,2777,2625,2388,2766,3112,3030,3375,3038,
+             3017,3136,3204,3174,3220,3464,3870,3689,3783,3457,4151,4230,3707,
+             415,4315,4790,4464,4499,4819,4739,4912,4494,5698,6349,6630,7585,8183)
+Tabla_B<- c(1209,1115,1151,1208,1170,1198,1390,1480,1359,1337,1415,1530,1453,
+            1324,1477,1501,1661,1562,1764,1796,1976,1802,2000,1923,2097,2110,
+            2214,2069,2324,2309,2353,2091,2187,2399,2630,2722,2998,3392,3379,3627)
+var.test(Tabla_A, Tabla_B)
+#Como el p valor es bajo se concluye que las varianzas pueden considerarse distintas.
+
+#contraste de igualdad de medias.
+t.test(Tabla_A, Tabla_B, var.equal=TRUE, mu=0)
+#Se concluye que existe diferencia significativa en 
+#la densidad espectral para ambos grupos de pacientes,
+#pues el p valor de la prueba resulta ser muy pequeño.
+@
+
+
+
+\end{document}

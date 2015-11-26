@@ -1,0 +1,39 @@
+
+
+<<>>=
+#"CC"=Coca_Cola
+#"PC"=Pepsi_Cola
+#"SC"=Salva_Cola
+Tipo<-c("CC","PC","SC");Tipo
+Consumo<-sample(Tipo,20,replace=TRUE);Consumo
+data.entry(Consumo)
+write(Consumo, "Consumo.txt")
+
+frec <- table(Consumo); frec
+prop <- table(Consumo)/length(Consumo); prop
+
+summary(Consumo)
+
+barplot(frec, main="Gráfico de barras", xlab=" Consumo", col=c("yellow", "white", "red"),
+sub="Agosto-2012")
+
+barplot(prop, main="Gráfico de barras", xlab=" Consumo\n", col=c("yellow", "white",
+"red"), sub="Agosto-2012")
+
+pie(frec, main="Gráfico de pastel", xlab="Tipo de Consumo", col=c("yellow", "white",
+"cyan"), sub="Agosto-2012")
+
+
+names(frec) = c("Coca Cola", "Pepsi", "Salva Cola")
+pie(frec, main="Gráfico de pastel", xlab=" Consumo", radius=1, col=c("red", "gray",
+"cyan"), sub="Agosto-2012")
+
+
+n <- length(frec)
+hoja <- data.frame(frec); hoja
+etiq <- c(paste(hoja$Var1, "-", hoja$Freq)); etiq
+pie(frec, main="Gráfico de pastel", labels=etiq, col=rainbow(n), border=TRUE)
+@
+
+
+

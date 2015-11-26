@@ -1,0 +1,21 @@
+
+
+<<>>=
+intervaloProp <- function(x, n, nivel.conf=0.95)
+{
+pe <- x/n
+alfa <- 1-nivel.conf
+z <- qnorm(1-alfa/2)
+SE <- sqrt(pe*(1-pe)/n)
+print(rbind(pe, alfa, z, SE))
+LInf <- pe-z*SE
+LSup <- pe+z*SE
+print(" ")
+print(paste("Intervalo para p es: [", round(LInf, 2), ",", round(LSup, 2), "]"))
+}
+x=360; n=1200; nivel.conf=0.95
+intervaloProp(x, n, nivel.conf)
+@
+
+
+

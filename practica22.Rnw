@@ -1,0 +1,119 @@
+\documentclass{article}
+
+\begin{document}
+
+Construyendo una función en R para realizar la prueba de hipótesis.
+
+<<>>=
+Prueba.prop <- function(x, n, po, H1="Distinto", alfa=0.05)
+{
+  op <- options();
+  options(digits=2)
+  pe=x/n 
+  SE <- sqrt((po * (1-po))/n) 
+  Zo <- (pe-po)/SE 
+  
+  if (H1 == "Menor" || H1 == "Mayor")
+  {
+    Z <- qnorm(alfa, mean=0, sd=1, lower.tail = FALSE, log.p = FALSE)
+    
+    valores <- rbind(Prop_Estimada=pe, Prop_Hipotetica=po, Z_critico=Z,Estadistico= Zo)
+  }
+  else
+  {
+    Z <- qnorm(alfa/2, mean=0, sd=1, lower.tail = FALSE, log.p = FALSE)
+    
+    valores <- rbind(Prop_Estimada=pe, Prop_Hipotetica =po, Z_critico_menor=-Z,
+                     Z_critico_mayor =Z, Zo)
+  } 
+  if (H1 == "Menor")
+  {
+    if (Zo < -Z) decision <- paste("Como Estadistico <", round(-Z,3), 
+                                   ", entonces rechazamos Ho")
+    else decision <- paste("Como Estadistico>=", round(-Z,3), 
+                           ", entonces aceptamos Ho")
+  }
+  if (H1 == "Mayor")
+  {
+    if (Zo > Z) decision <- paste("Como Estadistico >", round(Z,3), 
+                                  ", entonces rechazamos Ho")
+    else decision <- paste("Como Estadistico <=", round(Z,3), 
+                           ", entonces aceptamos Ho")
+  }
+  if (H1 == "Distinto")
+  {
+    if (Zo < -Z) decision <- paste("Como Estadistico <", round(-Z,3), 
+                                   ", entonces rechazamos Ho")
+    if (Zo > Z) decision <- paste("Como Estadistico >", round(Z,3), 
+                                  ", entonces rechazamos Ho")
+    else decision <- paste("Como Estadistico pertenece a [", round(-Z,3), 
+",", round(Z,3), "], entonces aceptamos Ho") 
+  } 
+  print(valores)
+  print(decision)
+  options(op) 
+} 
+
+Prueba.prop(23, 100, 0.15, H1="Menor", alfa=0.05)
+Prueba.prop(23, 100, 0.15, H1="Mayor", alfa=0.05)
+Prueba.prop(23, 100, 0.15, H1="Distinto", alfa=0.05)
+
+prop.test(x=23, n=100, p=0.15, alternative="less", conf.level=0.95)
+prop.test(x=23, n=100, p=0.15, alternative="greater", conf.level=0.95)
+prop.test(x=23, n=100, p=0.15, alternative="two.sided", conf.level=0.95) 
+@
+
+
+
+PRUEBA DE HIPÓTESIS SOBRE UNA MEDIA, VARIANZA CONOCIDA.
+
+<<>>=
+X <- c(9.0, 3.41, 6.13, 1.99, 6.92, 3.12, 7.86, 2.01, 5.98, 
+       4.15, 6.87, 1.97, 4.01, 3.56, 8.04, 3.24, 5.05, 7.37)
+
+
+Prueba.param <- function(x, des, VEC, H1="Distinto", alfa=0.05)
+{
+  op <- options();
+  options(digits=2)
+  miu<- mean(VEC)
+  RC<- 1.645
+  L<- length(VEC)
+  Zo<-(miu-x)/(((des^2)/L)^(0.5))
+  Z<- 1.645
+ 
+  if (H1 == "Menor")
+  {
+    if (Zo < -Z) decision <- paste("Como Estadistico <", round(-Z,3), 
+                                   ", entonces rechazamos Ho")
+    else decision <- paste("Como Estadistico>=", round(-Z,3), 
+                           ", entonces aceptamos Ho")
+  }
+  if (H1 == "Mayor")
+  {
+    if (Zo > Z) decision <- paste("Como Estadistico >", round(Z,3), 
+                                  ", entonces rechazamos Ho")
+    else decision <- paste("Como Estadistico <=", round(Z,3), 
+                           ", entonces aceptamos Ho")
+  }
+  if (H1 == "Distinto")
+  {
+    if (Zo < -Z) decision <- paste("Como Estadistico <", round(-Z,3), 
+                                   ", entonces rechazamos Ho")
+    if (Zo > Z) decision <- paste("Como Estadistico >", round(Z,3), 
+                                  ", entonces rechazamos Ho")
+    else decision <- paste("Como Estadistico pertenece a [", round(-Z,3), 
+",", round(Z,3), "], entonces aceptamos Ho") 
+  } 
+  
+  print(decision)
+  options(op) 
+  } 
+
+Prueba.param(4, 2.45, X, H1="Mayor", alfa=0.05)
+
+t.test(X,mu=4,alternative="greater") 
+@
+
+
+\end{document}

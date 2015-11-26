@@ -1,0 +1,74 @@
+<<>>=
+#ejemplo 1
+x <-55
+a=0
+b<-90
+punif(x,min=a,max=b,lower.tail=TRUE)
+## [1] 0.6111111
+F55=punif(55,min=a,max=b,lower.tail=TRUE)
+F15=punif(15,min=a,max=b,lower.tail=TRUE)
+F55-F15
+## [1] 0.4444444
+(1-F55)*( F55-F15)
+## [1] 0.1728395
+#ejemplo 2
+p<-c(0.80)
+media=5;
+d.t=1
+qnorm(p, mean=media,sd=d.t,lower.tail=TRUE)
+## [1] 5.841621
+p<-c(0.80)
+g.l<-10
+qt(p,df=g.l,lower.tail=TRUE)
+## [1] 0.8790578
+n<-16
+x<-4.5
+mu=5
+sigma=1
+d.t=sigma/sqrt(n)
+pnorm(x,mean=mu,sd=d.t,lower.tail=FALSE)
+## [1] 0.9772499
+#ejemplo 3
+x<-5
+teta=7
+pexp(x,rate=1/teta,lower.tail=FALSE)
+## [1] 0.4895417
+x<-3
+teta=7
+pexp(x,rate=1/teta,lower.tail=TRUE)
+## [1] 0.3485609
+pexp(4,rate=1/teta,lower.tail=FALSE)
+## [1] 0.5647181
+p<-0.9
+teta<-7
+qexp(p,rate=1/teta,lower.tail=TRUE)
+## [1] 16.1181
+qexp(0.5,rate=1/teta,lower.tail=TRUE)
+## [1] 4.85203
+qexp(0.68,rate=1/teta,lower.tail=TRUE)
+## [1] 7.97604
+qexp(0.32,rate=1/teta,lower.tail=FALSE)
+## [1] 7.97604
+
+#3. gneracion de muestras aleatorias de las distribuciones
+#ejemplo 1
+min<--2
+max<-4
+x=runif(100,min,max)
+x
+
+hist(x,main="X ~Uniforme(min=-2,max=4",xlab="X",ylab="densidad de probabilidad",
+probability=TRUE,col="cyan")
+curve(dunif(x,min,max),col="blue",add=TRUE)
+
+#ejemplo 2
+x.norm<-rnorm(n=200,mean=10,sd=2)
+x.norm
+
+hist(x.norm,breaks="Sturges",freq=TRUE,probability=FALSE,include.lowest=TRUE,right
+=TRUE,density=NULL,angle=45,col="steelblue1",border = NULL, main = "Histograma de
+datos observados",axes=TRUE,plot=TRUE,labels=FALSE)
+
+plot(ecdf(x.norm),main="Funcion de distribucion acumulada teorica")
+@
+

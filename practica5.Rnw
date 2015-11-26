@@ -1,0 +1,81 @@
+
+
+<<>>=
+x <- c(6:10)
+x
+sqrt(x) 
+sqrt(ifelse(x >= 0, x, NA))
+x <- c(2, 6, 4, 7, 5, 1)
+x
+suma<-0; for(i in 1:3) suma = suma+x[i]
+suma
+
+media <- function(x)
+{
+n = length(x)
+suma <- 0.0
+for(i in 1:n) suma = suma + x[i]
+media = suma/n
+}
+func.cuadratica <- function(x)
+{
+3*x^2-5*x+2
+}
+y <- func.cuadratica(2)
+y
+save(media, file= "media.RData")
+rm(list=ls(all=TRUE))
+load("media.RData")
+media <- function(x)
+{
+n = length(x)
+suma <- 0.0
+for(i in 1:n) suma = suma + x[i]
+media = suma/n
+}
+x <- 1:5
+(media(x))
+
+y <- c(5, 8 , 4, 9)
+(media(y))
+
+
+Seno <- function(x)
+{
+y = sin(x)
+plot(x, y, main="Ejemplo de gr?ficos en R",
+xlab="x", ylab="y = Seno(x)", col="blue", pch=1)
+}
+x<-seq(-pi, pi, len=100)
+Seno(x)
+
+
+func.cuadratica <- function(x)
+{
+3*x^2-5*x+2
+}
+y <- func.cuadratica(2)
+y
+
+media <- function(x)
+{
+n = length(x)
+suma <- 0.0
+for(i in 1:n) suma = suma + x[i]
+media = suma/n
+}
+
+@
+<<>>=
+library(splines)
+library( RcmdrMisc)
+library(car)
+library(sandwich)
+
+library(relimp, pos=15)
+
+
+
+@
+
+  

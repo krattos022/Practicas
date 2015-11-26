@@ -1,0 +1,26 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+<<>>=
+#GUIA 24
+#ANÁLISIS DE VARIANZA
+
+#Ejemplo 1
+
+notas <- c(20,18,18,23,22,17,15,13,21,15,20,13,12,16,17,21,15,13,12,15,18,20,
+           18,17,10,24,16)
+programas <- gl(n=3, k=9, labels=c("P1", "P2", "P3"))
+datos <- data.frame(notas = notas, programas = programas);datos
+mod1 <- aov(notas ~ programas, data = datos)
+plot(mod1)
+
+#Ejemplo 2
+#(No esta la base de datos)
+
+@
+
+
+
+\end{document}
