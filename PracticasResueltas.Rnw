@@ -1,8 +1,9 @@
 \documentclass{article}
-
+%\usepackage{includegraphics}
 \begin{document}
 \SweaveOpts{concordance=TRUE}
-
+\SweaveInput{Portada.Rnw}
+\newpage
 \textbf{Practica 2.}
 \SweaveInput{practica2.Rnw}
 \textbf{Practica 3.}
