@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.10)  26 NOV 2015 11:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.10)  26 NOV 2015 15:36
 entering extended mode
 **PracticasResueltas.tex
 (C:\Users\Mate-07\Documents\Practicas\PracticasResueltas.tex
@@ -29,12 +29,6 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(C:/PROGRA~1/R/R-32~1.2/share/texmf/tex/latex\Sweave.sty
-Package: Sweave 
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -67,6 +61,12 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
+)
+(C:/PROGRA~1/R/R-32~1.2/share/texmf/tex/latex\Sweave.sty
+Package: Sweave 
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\Mate-07\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyvrb\fancyvrb.sty
 Package: fancyvrb 2008/02/07
@@ -184,25 +184,25 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))))
 (C:\Users\Mate-07\Documents\Practicas\PracticasResueltas.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    ... okay on input line 6.
 
 (C:\Users\Mate-07\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -218,28 +218,34 @@ LaTeX Font Info:    ... okay on input line 4.
 \makeMPintoPDFobject=\count96
 \everyMPtoPDFconversion=\toks16
 ) (C:\Users\Mate-07\Documents\Practicas\PracticasResueltas-concordance.tex)
-[1
+<Minerva.png, id=44, 286.1892pt x 367.6134pt>
+File: Minerva.png Graphic file (type png)
+ <use Minerva.png>
+Package pdftex.def Info: Minerva.png used on input line 14.
+(pdftex.def)             Requested size: 170.71652pt x 219.28519pt.
+ [1
 
-{C:/Users/Mate-07/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 47.
+{C:/Users/Mate-07/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
+Mate-07/Documents/Practicas/Minerva.png>]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 49.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 ) [1] [2] [3]
 [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
-Overfull \hbox (13.15504pt too wide) in paragraph at lines 950--953
+Overfull \hbox (13.15504pt too wide) in paragraph at lines 952--955
 []\T1/aer/m/n/10 library(foreign) base-pro-duc-tos <-read.table("productos.csv"
 ,header=TRUE,sep
  []
 
 
-Overfull \hbox (20.30513pt too wide) in paragraph at lines 954--957
+Overfull \hbox (20.30513pt too wide) in paragraph at lines 956--959
 []\T1/aer/m/n/10 library(Hmisc) Baseimportante<-spss.get("Mundo.sav",use.value.
 labels =TRUE)
  []
 
 [14] [15] [16] [17] [18] [19]
-Overfull \hbox (846.32684pt too wide) in paragraph at lines 1351--1355
+Overfull \hbox (846.32684pt too wide) in paragraph at lines 1353--1357
 []\T1/aer/m/n/10 Notas<-c(4.47,4.47,3.48,5.0,3.42,3.78,3.1,3.57,4.2,4.5,3.6,3.7
 5,4.5,2.85,3.7,4.2,3.2,4.05,4.9,5.1,5.3,4.16,4.56,3.54,3.5,5.2,4.71,3.7,4.78,4.
 14,4.14,4.8,4.1,3.83,3.6,2.98,4.32,5.1,4.3,3.9,3.96,3.54,4.8,4.3,3.39,4.47,3.19
@@ -247,7 +253,7 @@ Overfull \hbox (846.32684pt too wide) in paragraph at lines 1351--1355
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1372 #
+l.1374 #
          Calcula el ancho o amplitud a de cada intervalo a=rango/k
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -255,7 +261,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1378 #
+l.1380 #
          Define los límites y puntos medios de cada uno de los k intervalos
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -263,7 +269,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1385 #
+l.1387 #
          Encuentra las frecuencias absolutas fi para cada intervalo
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -271,7 +277,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1392 #
+l.1394 #
          Encuentra las frecuencias relativas o proporciones fri
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -279,7 +285,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1397 #
+l.1399 #
          Encuentra las frecuencias acumuladas ascendentes Fi
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -288,7 +294,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 [20]
 ! You can't use `macro parameter character #' in vertical mode.
-l.1401 #
+l.1403 #
          Encuentra las frecuencias relativas acumuladas Fri
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -296,7 +302,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1405 #
+l.1407 #
          Completa la tabla de frecuencias.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -304,11 +310,11 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1412.
+(Font)              <7> on input line 1414.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 1412.
+(Font)              <5> on input line 1414.
 ! You can't use `macro parameter character #' in math mode.
-l.1413 rug(jitter(X)) #
+l.1415 rug(jitter(X)) #
                         adiciona marcas de los datos
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -318,19 +324,19 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1414 
+l.1416 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (58.18121pt too wide) in paragraph at lines 1408--1414
+Overfull \hbox (58.18121pt too wide) in paragraph at lines 1410--1416
 \T1/aer/m/n/10 tas de as-pi-rantes", ylab="Frecuencia (fi)", axes=TRUE, la-bels
 =FALSE) text(h$\OML/cmm/m/it/10 mids; h$\T1/aer/m/n/10 density,
  []
 
 
-Overfull \hbox (12.43797pt too wide) in paragraph at lines 1408--1414
+Overfull \hbox (12.43797pt too wide) in paragraph at lines 1410--1416
 \T1/aer/m/n/10 h$\OML/cmm/m/it/10 counts; adj \OT1/cmr/m/n/10 = \OML/cmm/m/it/1
 0 c\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OMS
 /cmsy/m/n/10  \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5)\OML/cmm/m/i
@@ -340,7 +346,7 @@ it/10 rug\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 jitter\OT1/cmr/m/n/10 (\OML/cmm/m/it
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1415 #
+l.1417 #
          h es un objeto del tipo lista que contiene atributos del histograma
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -348,7 +354,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.1420 main="Aproximación a una Normal\n
+l.1422 main="Aproximación a una Normal\n
                                          ", col="lightyellow",lty=1,border="...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -357,7 +363,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.1421 xlab="Notas de aspirantes\n
+l.1423 xlab="Notas de aspirantes\n
                                   ", ylab="Frecuencia relativa (fri)",
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -366,7 +372,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in math mode.
-l.1424 rug(jitter(X)) #
+l.1426 rug(jitter(X)) #
                         adiciona marcas de los datos
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -376,25 +382,25 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1426 
+l.1428 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (24.89595pt too wide) in paragraph at lines 1418--1426
+Overfull \hbox (24.89595pt too wide) in paragraph at lines 1420--1428
 \T1/aer/m/n/10 prob-a-bil-ity = TRUE, in-clude.lowest = FALSE, right = TRUE, ma
 in="Aproximación
  []
 
 
-Overfull \hbox (52.5611pt too wide) in paragraph at lines 1418--1426
+Overfull \hbox (52.5611pt too wide) in paragraph at lines 1420--1428
 \T1/aer/m/n/10 rantes", ylab="Frecuencia rel-a-tiva (fri)", axes=TRUE, la-bels=
 FALSE) text(h$\OML/cmm/m/it/10 mids; h$\T1/aer/m/n/10 density,
  []
 
 
-Overfull \hbox (112.20554pt too wide) in paragraph at lines 1418--1426
+Overfull \hbox (112.20554pt too wide) in paragraph at lines 1420--1428
 \T1/aer/m/n/10 h$\OML/cmm/m/it/10 counts; adj \OT1/cmr/m/n/10 = \OML/cmm/m/it/1
 0 c\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OT1
 /cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 ; col \OT1/cm
@@ -405,7 +411,7 @@ it/10 dnorm\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; mean \OT1/cmr/m/n/10 =$
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1428 #
+l.1430 #
         Crea el polígono de frecuencias
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -413,7 +419,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.1434 rug(jitter(X)) #
+l.1436 rug(jitter(X)) #
                         adiciona marcas de los datos
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -423,25 +429,25 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1438 
+l.1440 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (46.42688pt too wide) in paragraph at lines 1428--1438
+Overfull \hbox (46.42688pt too wide) in paragraph at lines 1430--1440
 \T1/aer/m/n/10 lim-ites[k+1]+a), freq = TRUE, prob-a-bil-ity=FALSE, in-clude.lo
 west=FALSE,right=TRUE,
  []
 
 
-Overfull \hbox (8.49953pt too wide) in paragraph at lines 1428--1438
+Overfull \hbox (8.49953pt too wide) in paragraph at lines 1430--1440
 \T1/aer/m/n/10 xlab=" No-tas de as-pi-rantes", ylab="Frecuencia (fi)", axes=TRU
 E, la-bels=FALSE)
  []
 
 
-Overfull \hbox (134.24149pt too wide) in paragraph at lines 1428--1438
+Overfull \hbox (134.24149pt too wide) in paragraph at lines 1430--1440
 \T1/aer/m/n/10 text(h$\OML/cmm/m/it/10 mids; h$\T1/aer/m/n/10 density, h$\OML/c
 mm/m/it/10 counts; adj \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 c\OT1/cmr/m/n/10 (0\O
 ML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/
@@ -452,7 +458,7 @@ m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5)\OML/cmm/m/it/10 ; col \OT1/cmr/m/n
  []
 
 
-Overfull \hbox (43.79955pt too wide) in paragraph at lines 1428--1438
+Overfull \hbox (43.79955pt too wide) in paragraph at lines 1430--1440
 $\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 c\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 h$\T1/ae
 r/m/n/10 mids[1]-a, h$\OML/cmm/m/it/10 mids; h$\T1/aer/m/n/10 mids[k+1]+a); vCi
  vfi <- c(0, h$\OML/cmm/m/it/10 counts; \OT1/cmr/m/n/10 0); \OML/cmm/m/it/10 vf
@@ -460,7 +466,7 @@ ilines\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 vCi; vfi; col \OT1/cmr/m/n/10 =$
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1439 #
+l.1441 #
         Crea la Ojiva ascendente o polígono de frecuencias acumuladas ascen...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -470,13 +476,13 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1445 
+l.1447 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (77.3436pt too wide) in paragraph at lines 1439--1445
+Overfull \hbox (77.3436pt too wide) in paragraph at lines 1441--1447
 \T1/aer/m/n/10 mu-lada (Fi)") text(limites, h$\OML/cmm/m/it/10 density; Fia; ad
 j \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 c\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 :\OT1/
 cmr/m/n/10 5\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 0\OML/cmm/m/it
@@ -486,7 +492,7 @@ cmr/m/n/10 5\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 0\OML/cmm/m/it
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1446 #
+l.1448 #
         Calcula los principales estadísticos descriptivos de la variable
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -494,7 +500,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1447 #
+l.1449 #
          Calcula la moda, ya que el R no proporciona una función para eso.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -502,7 +508,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1454 #
+l.1456 #
          Calcula los cuartiles: Q1, Q2, Q3
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -510,7 +516,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1463 #
+l.1465 #
         Calcula los principales estadísticos.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -520,20 +526,20 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1471 
+l.1473 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (92.58427pt too wide) in paragraph at lines 1463--1471
+Overfull \hbox (92.58427pt too wide) in paragraph at lines 1465--1473
 []\T1/aer/m/n/10 Calcula los prin-ci-pales es-tadís-ti-cos. es-tadis-ti-cos <-
  rbind(media=sum(tabEstad$\OML/cmm/m/it/10 cifi\OT1/cmr/m/n/10 )\OML/cmm/m/it/1
 0 =n; moda \OT1/cmr/m/n/10 =$
  []
 
 
-Overfull \hbox (5.25397pt too wide) in paragraph at lines 1463--1471
+Overfull \hbox (5.25397pt too wide) in paragraph at lines 1465--1473
 $\OML/cmm/m/it/10 moda; Q\OT1/cmr/m/n/10 1 = \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 
 [1]\OML/cmm/m/it/10 ; Q\OT1/cmr/m/n/10 2 = \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 [2
 ]\OML/cmm/m/it/10 ; Q\OT1/cmr/m/n/10 3 = \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 [3]\
@@ -544,7 +550,7 @@ OML/cmm/m/it/10 ; rango \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 max\OT1/cmr/m/n/10 (
  []
 
 
-Overfull \hbox (103.41653pt too wide) in paragraph at lines 1463--1471
+Overfull \hbox (103.41653pt too wide) in paragraph at lines 1465--1473
 $\OML/cmm/m/it/10 sum\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 tabEstad$\T1/aer/m/n/10 
 ciMedia2fi)/n, Desviacion=sqrt(sum(tabEstad$\OML/cmm/m/it/10 ciMedia\OT1/cmr/m/
 n/10 2\OML/cmm/m/it/10 fi\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =n\OT1/cmr/m/n/10 )\
@@ -552,7 +558,7 @@ OML/cmm/m/it/10 ; CoeficienteVariacion \OT1/cmr/m/n/10 =$
  []
 
 
-Overfull \hbox (371.459pt too wide) in paragraph at lines 1463--1471
+Overfull \hbox (371.459pt too wide) in paragraph at lines 1465--1473
 $\OML/cmm/m/it/10 sqrt\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 sum\OT1/cmr/m/n/10 (\OM
 L/cmm/m/it/10 tabEstad$\T1/aer/m/n/10 ciMedia2fi)/n)/(sum(tabEstad$\OML/cmm/m/i
 t/10 cifi\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =n\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 
@@ -563,7 +569,7 @@ ciMedia\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 fi\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =n
  []
 
 
-Overfull \hbox (23.85559pt too wide) in paragraph at lines 1463--1471
+Overfull \hbox (23.85559pt too wide) in paragraph at lines 1465--1473
 $\OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 sum\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 tabEst
 ad$\T1/aer/m/n/10 ciMedia4fi)/n)/sqrt(sum(tabEstad$\OML/cmm/m/it/10 ciMedia\OT1
 /cmr/m/n/10 2\OML/cmm/m/it/10 fi\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =n\OT1/cmr/m/
@@ -571,7 +577,7 @@ n/10 )[]) \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 3)\OML/cmm/m/it/10 estadisticos$
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1472 #
+l.1474 #
          Gráfico de cajas
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -580,7 +586,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 [21]
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1475 #
+l.1477 #
         Observación: en la función boxplot(), sí plot es FALSE se produce...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -588,31 +594,31 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (41.68999pt too wide) in paragraph at lines 1472--1476
+Overfull \hbox (41.68999pt too wide) in paragraph at lines 1474--1478
 []\T1/aer/m/n/10 Gráfico de ca-jas box-plot(X, main="Gráfico de caja", xlab="
 Notas", notch=FALSE,
  []
 
 
-Overfull \hbox (13.34969pt too wide) in paragraph at lines 1472--1476
+Overfull \hbox (13.34969pt too wide) in paragraph at lines 1474--1478
 \T1/aer/m/n/10 data=parent.frame(), plot=TRUE, bor-der="red", col="yellow",hori
 zontal=TRUE)
  []
 
 
-Overfull \hbox (27.58911pt too wide) in paragraph at lines 1478--1481
+Overfull \hbox (27.58911pt too wide) in paragraph at lines 1480--1483
 []\T1/aer/m/n/10 windows() box-plot(X, main="Gráfico de caja", xlab="X = No-ta
 s", notch=TRUE,
  []
 
 
-Overfull \hbox (13.34969pt too wide) in paragraph at lines 1478--1481
+Overfull \hbox (13.34969pt too wide) in paragraph at lines 1480--1483
 \T1/aer/m/n/10 data=parent.frame(), plot=TRUE, bor-der="red", col="yellow",hori
 zontal=TRUE) 
  []
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1482 par(mfrow=c(1,2)) #
+l.1484 par(mfrow=c(1,2)) #
                            Divide la ventana gráfica en dos partes (1 fila,...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -620,7 +626,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1486 #
+l.1488 #
         Calcula los principales estad?sticos descriptivos de la variable
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -628,7 +634,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1487 #
+l.1489 #
          Calcula la moda, ya que el R no proporciona una funci?n para eso.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -636,13 +642,13 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (6.47292pt too wide) in paragraph at lines 1486--1493
+Overfull \hbox (6.47292pt too wide) in paragraph at lines 1488--1495
 \T1/aer/m/n/10 1])/((fi[i]-fi[i-1])+(fi[i]-fi[i+1]) ))*a moda <- limites[i]+(fi
 [i]/(fi[i]+(fi[i]-fi[i+1])))*a
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1494 #
+l.1496 #
         Varios gr?ficos en una misma ventana
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -650,7 +656,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1495 par(mfrow=c(1,2)) #
+l.1497 par(mfrow=c(1,2)) #
                            Divide la ventana gr?fica en dos partes (1 fila, ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -658,7 +664,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1510 #
+l.1512 #
         Conecta la hoja de datos a la segunda ruta o lista de búsqueda.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -666,7 +672,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1511 attach(HojaCat, pos=2) #
+l.1513 attach(HojaCat, pos=2) #
                                 pos especifica la posición donde buscar la ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -674,7 +680,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1514 #
+l.1516 #
         Crea una tabla de contigencia o de doble entrada
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -682,13 +688,13 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (7.25592pt too wide) in paragraph at lines 1514--1517
+Overfull \hbox (7.25592pt too wide) in paragraph at lines 1516--1519
 []\T1/aer/m/n/10 Crea una tabla de con-ti-gen-cia o de doble en-trada tabla-Con
 t <- ta-ble(HojaCat);
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1519 #
+l.1521 #
          Encuentra la suma de cada fila de la tabla de contingencia
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -696,7 +702,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1520 #
+l.1522 #
          Distribución marginal de X=Estado civil
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -704,7 +710,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1522 #
+l.1524 #
          El 1 indica que son totales por fila
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -712,7 +718,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1524 #
+l.1526 #
          Gráficos de barras para tabla de contingencia.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -720,7 +726,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1525 #
+l.1527 #
          Barras apiladas
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -728,19 +734,19 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (42.86531pt too wide) in paragraph at lines 1524--1527
+Overfull \hbox (42.86531pt too wide) in paragraph at lines 1526--1529
 []\T1/aer/m/n/10 Gráficos de bar-ras para tabla de con-tin-gen-cia.  Bar-ras a
 pi-ladas barplot(t(tablaCont),
  []
 
 
-Overfull \hbox (54.601pt too wide) in paragraph at lines 1524--1527
+Overfull \hbox (54.601pt too wide) in paragraph at lines 1526--1529
 \T1/aer/m/n/10 main="Gráfico de bar-ras (Es-tado, Ocu-pación)", xlab="Estado 
 civil", ylab="Ocupación",
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1530 #
+l.1532 #
          Guardar las todas las opciones iniciales y modificar número de dec...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -748,7 +754,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1532 options(digits=3) #
+l.1534 options(digits=3) #
                            sólo imprime 3 lugares decimales
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -756,13 +762,13 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (7.09456pt too wide) in paragraph at lines 1530--1534
+Overfull \hbox (7.09456pt too wide) in paragraph at lines 1532--1536
 \T1/aer/m/n/10 <- op-tions() op-tions(digits=3)  sólo im-prime 3 lu-gares dec-
 i-males op-tions('digits') 
  []
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1536 #
+l.1538 #
          Proporciones basadas en el total de la muestra, la suma de filas y ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -770,7 +776,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.1540 ...tado, Ocupación)", xlab="Estado civil\n
+l.1542 ...tado, Ocupación)", xlab="Estado civil\n
                                                   ",ylab="Ocupación", besid...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -779,7 +785,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1543 #
+l.1545 #
          Proporciones basadas en el total por fila, cada fila suma 1.
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -787,7 +793,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1546 #
+l.1548 #
          Total por fila se indica en 1
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -795,7 +801,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.1547 ...tado, Ocupación)", xlab="Estado civil\n
+l.1549 ...tado, Ocupación)", xlab="Estado civil\n
                                                   ",
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -804,7 +810,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! You can't use `macro parameter character #' in horizontal mode.
-l.1552 #
+l.1554 #
          Total por fila se indica en 1
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -812,7 +818,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Undefined control sequence.
-l.1553 ...tado, Ocupación)", xlab="Estado civil\n
+l.1555 ...tado, Ocupación)", xlab="Estado civil\n
                                                   ",
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -822,7 +828,7 @@ and I'll forget about whatever was undefined.
 
 [22]
 ! You can't use `macro parameter character #' in vertical mode.
-l.1556 #
+l.1558 #
         Realizar la prueba o contraste Chi-cuadrado de independencia
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -830,7 +836,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in vertical mode.
-l.1559 #
+l.1561 #
          Frecuencias absolutas esperadas para la prueba Chi-cuadrada
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -838,7 +844,7 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! You can't use `macro parameter character #' in math mode.
-l.1560 prueba$expected #
+l.1562 prueba$expected #
                          fij = fi./No. column
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -848,31 +854,31 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1561 
+l.1563 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (25.33199pt too wide) in paragraph at lines 1559--1561
+Overfull \hbox (25.33199pt too wide) in paragraph at lines 1561--1563
 []\T1/aer/m/n/10 Frecuencias ab-so-lu-tas es-per-adas para la prueba Chi-cuadra
 da prueba$\OML/cmm/m/it/10 expectedfij \OT1/cmr/m/n/10 =$
  []
 
 [23] [24] [25]
 LaTeX Font Info:    Try loading font information for TS1+aett on input line 175
-3.
+5.
  (C:/PROGRA~1/R/R-32~1.2/share/texmf/tex/latex\ts1aett.fd
 File: ts1aett.fd 
 )
 LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 175
-3.
+5.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
 File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `TS1/aett/m/n' in size <10> not available
-(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 1753.
+(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 1755.
 
  [26] [27]
 [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40]
@@ -883,7 +889,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2655 \documentclass
+l.2656 \documentclass
                      {article}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -896,7 +902,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2657 \begin{document}
+l.2658 \begin{document}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -905,16 +911,16 @@ or  <return>  to continue without it.
 [41] [42] (C:\Users\Mate-07\Documents\Practicas\PracticasResueltas.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 2657 (\begingroup)
+### semi simple group (level 1) entered at line 2658 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2349 strings out of 493921
- 33029 string characters out of 3144870
+ 2355 strings out of 493921
+ 33107 string characters out of 3144870
  79076 words of memory out of 3000000
- 5621 multiletter control sequences out of 15000+200000
+ 5625 multiletter control sequences out of 15000+200000
  18679 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,5n,21p,315b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,5n,21p,315b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Mate-07\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\tctt1000.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
@@ -928,9 +934,9 @@ cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl
 tt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10
 .pfb>
-Output written on PracticasResueltas.pdf (43 pages, 229608 bytes).
+Output written on PracticasResueltas.pdf (43 pages, 504895 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
+ 237 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 173 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

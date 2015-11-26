@@ -4,7 +4,7 @@
 \vspace*{-1in}
 \begin{figure}[htb]
 \begin{center}
-%\includegraphics [width=6cm]{Minerva}
+\includegraphics [width=6cm]{Minerva}
 \end{center}
 \end{figure}
 

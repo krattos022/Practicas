@@ -1,5 +1,7 @@
 \documentclass{article}
-%\usepackage{includegraphics}
+
+
+\usepackage{graphicx}
 \begin{document}
 \SweaveOpts{concordance=TRUE}
 \SweaveInput{Portada.Rnw}
